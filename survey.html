@@ -1,0 +1,113 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html>
+  <body>
+    
+    <h1 id="title">Share about your coding journey!</h1>
+   
+    <div id="outer-form">
+        <p id="description">Complete all fields and click "Submit" when done</p>
+      
+      <form id="survey-form">
+   
+        <div class="rowTab">
+      <div class="labels">
+        <label id="name-label" for="name">Name:</label>
+      </div>
+      <div class="rightTab">
+        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+      </div>
+    </div>
+        
+       <div class="rowTab">
+      <div class="labels">
+        <label id="email-label" for="email"> Email: </label>
+      </div>
+      <div class="rightTab">
+        <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+      </div>
+    </div>
+        
+         <div class="rowTab">
+      <div class="labels">
+        <label id="number-label" for="age"> Age: </label>
+      </div>
+      <div class="rightTab">
+        <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
+      </div>
+    </div>
+        
+        <div class="rowTab">
+          <div class="labels">
+            <label for="codingLevel">Choose your level of coding:</label>
+          </div>
+            <div class="rightTab">
+              <ul style="list-style: none;">
+                <li class="radio">
+                  <label>New to code<input name="radio-buttons" value="1"  type="radio" class="codeLevel"></label></li>
+                <li class="radio">
+                  <label>I'm learning the basics<input name="radio-buttons" value="2" type="radio" class="codeLevel"></label></li>
+                <li class="radio">
+                  <label>I can make a webpage<input name="radio-buttons" value="3" type="radio" class="codeLevel"></label></li>
+                <li class="radio">
+                  <label>I studied code formally in school<input name="radio-buttons" value="4" type="radio" class="codeLevel"></label></li>
+                <li class="radio">
+                  <label>I am a software engineer<input name="radio-buttons" value="5" type="radio" class="codeLevel"></label></li>
+              </ul>
+            </div>
+        </div>
+        
+        <div class="rowTab">
+          <div class="labels">
+            <label for="reasonForCode">Why do you want to learn how to code?</br>(Choose all that apply)</label>
+          </div>
+        <div class="rightTab">
+          <ul id="reason" style="list-style: none;">
+            <li class="checkbox"><label><input name="reason" value="1" type="checkbox">Just as a hobby</label></li>
+            <li class="checkbox"><label><input name="reason" value="2" type="checkbox">To understand computers more</label></li>
+            <li class="checkbox"><label><input name="reason" value="3" type="checkbox">To create computer programs</label></li>
+            <li class="checkbox"><label><input name="reason" value="4" type="checkbox">Transition into a new career</label></li>
+            <li class="checkbox"><label><input name="reason" value="5" type="checkbox">Coding is fun</label></li>
+          </ul>
+        </div>
+       </div>
+      
+        
+        <div class="rowTab">
+          <div class="labels">
+            <label for="learnCode">How did you learn about our program?</label>
+          </div>
+          <div class="rightTab">
+            <select id="dropdown">
+              <option disabled value>Choose one</option>
+              <option value="socialMedia">Social media advertisement</option>
+              <option value="google">Google search</option>
+              <option value="email">Email advertisement</option>
+              <option value="friend">Through a friend or family member</option>
+              <option value="meetUp">From a Meetup</option>
+            </select>
+          </div>
+        </div>
+        
+      <div class="rowTab">
+        <div class="labels">
+          <label for="additionalInfo">Tell us more about yourself!</label>
+        </div>
+        <div class="rightTab">
+          <textarea id="additionalInfo" 
+                    class="input-field"
+                    style="height:50px;resize:vertical;"
+                    name="bio" placeholder="Add your comments here"></textarea>
+      
+          
+       <div class="button"> 
+        <button id="submit">Submit</button>
+    </div>
+      </form>
+    </div>
+      <h3>Thank you for taking the time to complete our survey!</h3>
+  </body>  
+  
+  
+</html>

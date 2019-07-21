@@ -1,0 +1,108 @@
+body {
+    background-color: purple;
+    text-align: center;
+    font-family: Helvetica;
+    min-width: 300px;
+  }
+  
+  #title {
+    font-family: Georgia;
+    font-size: 35px;
+  }
+  
+  h3 {
+    font-family: Georgia;
+  }
+  
+  #outer-form {
+    background-color: rgb(200, 200, 250);
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 75%;
+    max-width: 900px;
+    padding: 10px;
+    padding-top: 20px;
+  }
+  
+  #description {
+    font-family: Georgia;
+    font-size: 20px;
+  }
+  
+  .labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+    font-family: Georgia;
+  }
+  
+  .rightTab {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+  }
+  
+  #name {
+    height: 20px;
+    width: 130px;
+    padding: 5px;
+    margin: 10px;  
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+  
+  #email {
+     height: 20px;
+    width: 130px;
+    padding: 5px;
+    margin: 10px;  
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+  
+  #number {
+    height: 20px;
+    width: 50px;
+    padding: 5px;
+    margin: 10px;  
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+  
+  #dropdown {
+    height: 35px;
+    width: 250px;
+    padding: 5px;
+    margin: 10px;  
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+  
+  #additionalInfo {
+    height: 35px;
+    width: 250px;
+    padding: 5px;
+    margin: 10px;  
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+  
+  #submit {
+    background-color: #EE00AB;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: 10px;
+    border: 0px solid;
+  }
